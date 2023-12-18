@@ -45,8 +45,7 @@ public Inventario(){
         }else {
             System.out.println("transporte incorrecto");
         }
-        System.out.println("Tu id es: " + idMerca+ "tu transporte es: "+ tipoTransporte + "Tu fecha es" + fecha + "TU distancia es: "+distancia
-        "tu mercancia es:" + mercancia + "y tu costo es de: " +costo);
+        System.out.println("Tu id es: " + idMerca+ "tu transporte es: "+ tipoTransporte + "Tu fecha es" + fecha + "TU distancia es: "+distancia +"tu mercancia es:" + mercancia + "y tu costo es de: " +costo);
     }
     public void mercanciaMaritima(String idMerca, String tipoTransporte, Date fecha, int distancia, int mercancia, int costo){
         Mercancia nuevaMercancia = new Mercancia(idMerca, tipoTransporte, fecha, distancia, mercancia, costo);
